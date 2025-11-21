@@ -32,7 +32,7 @@ O projeto utiliza **HTML** e **CSS**, aplicando conceitos como semântica, lista
 
 ## 🚀 Publicação
 
-GitHub Pages: *adicione o link aqui*
+GitHub Pages: [*Clique aqui*](https://leticiafranca.github.io/portfolio-web1/)
 
 ## 📬 Contato
 
