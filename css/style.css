@@ -1,0 +1,262 @@
+/* Algumas partes deste código tiveram apoio da IA para otimizar a estética e manter um visual mais limpo. */
+
+body {
+   margin: 0;
+    padding: 0;
+    background-color: #fffae8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #981e1e;
+}
+
+/* ------------------------------------------- */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fffae8;
+    border-bottom: 1px solid #981e1e;
+}
+
+/* ------------------------------------------- */
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+/* links */
+.menu a {
+    color: #4a3f3f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+main {
+    padding-top: 120px;
+}
+
+/* ------------------------------------------- */
+
+.inicio {
+    padding: 100px 290px;
+    color:#981e1e;
+}
+
+.inicio h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.parag-inicio{
+    max-width: 600px;
+    color: #554d4d;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.conteudo-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.texto-inicio {
+    max-width: 600px;
+}
+
+.image-inicio img {
+    width: 650px;
+    height: auto;
+    display: block;
+}
+
+/* ------------------------------------------- */
+
+.sobre {
+    padding: 80px 250px;
+    background-color: #981e1e;
+    border-radius: 40px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.texto-sobre {
+    max-width: 600px;
+}
+
+.sobre h2 {
+    color: #fffae8;
+    font-size: 35px;
+}
+
+.parag-sobre {
+    max-width: 600px;
+    font-size: 18px;
+    color: #fffae8;
+}
+
+.image-sobre img {
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+}
+
+/* ------------------------------------------- */
+
+.meusProjetos {
+    padding: 80px 50px;
+}
+
+.textProj {
+    text-align: center;
+    color: #981e1e;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-bottom: 0;
+}
+
+.textProj p {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.todosProjetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.projeto {
+    background: #fff7f3;
+    border: 1px solid #981e1e;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.projeto a {
+    color:#b14949;
+}
+
+/* ------------------------------------------- */
+
+.minhasHabilidades {
+    padding: 80px 50px;
+    background: #981e1e;
+    border-radius: 40px;
+}
+
+.textHab {
+    text-align: center;
+    color: #fffae8;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-bottom: 0;
+}
+
+.textHab p {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.tabela {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #981e1e;
+    color: #fff;
+    border-collapse: collapse;
+}
+
+.tabela th, .tabela td {
+    border: 2px solid #fff;
+    padding: 25px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tabela thead th {
+    font-size: 18px;
+    font-weight: bold;
+    background: #981e1e;
+    padding: 30px 20px;
+}
+
+/* ------------------------------------------- */
+
+.contato {
+    padding: 80px 500px;
+}
+
+.text-contt {
+    text-align: center;
+    color: #981e1e;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.text-contt p {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.formulario {
+    display: flex;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    max-width: 650px;
+    background: #b14949;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #981e1e;
+    color: #fffae8;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 15px;
+    border: 1px solid #981e1e;
+    background: #fff7f3;
+    color: #4a3f3f;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #981e1e;
+    padding: 12px 24px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+/* ------------------------------------------- */
+
+footer {
+    padding: 30px;
+    text-align: center;
+    color: #6d5f5f;
+    border-top: 1px solid #981e1e;
+}
+
+footer a {
+    color:#6d5f5f;
+}
